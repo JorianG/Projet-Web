@@ -1,0 +1,42 @@
+body{
+    --main-bg-color : rgb(238, 164, 164);
+    --alt-button-color  : darkslategrey;
+    height: 2000px;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    height: 160px;
+}
+
+nav{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+
+}
+
+.logo.logo_but{
+    float: right;
+}
+ 
+.logo{
+    display: inline-block;
+    height: 80px;
+    margin: 40px;
+}
+
+.nav-botton>a , .nav-botton{
+    margin: 10px 10px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: var(--alt-button-color);
+    color: azure;
+    cursor: pointer;
+}
+
