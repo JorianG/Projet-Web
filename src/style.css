@@ -30,6 +30,7 @@ nav{
 
 }
 
+
 .logo.logo_but{
     float: right;
 }
@@ -51,6 +52,16 @@ nav{
     cursor: pointer;
 }
 
+.navbar {
+    display: flex;
+}
+
+.navbar li{
+    text-align: center;
+    padding-top: 15px;
+    
+    
+}
 
 
 
@@ -63,7 +74,7 @@ nav{
 
 /*footer*/
 
-footer {
+footer { 
     margin-top: 80px;
     background-color: #D8D8D8;
     flex-shrink: 0;
