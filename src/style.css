@@ -6,7 +6,7 @@
 
 
 body{
-    --main-bg-color : rgb(238, 164, 164);
+    --main-bg-color : #E32020;
     --alt-button-color  : darkslategrey;
     height: 1000px;
     display: flex;
@@ -131,7 +131,7 @@ td, th {
 }
   
 th {
-    background-color: rgb(238, 164, 164);
+    background-color: #E32020;
 }
 
 td, th {
@@ -145,11 +145,11 @@ td {
 
 
 tr:nth-child(even) td {
-    background-color: rgb(250,250,250);
+    background-color:; 
 }
   
 tr:nth-child(odd) td {
-    background-color: rgb(245,245,245);
+    background-color:;
 }
 
 caption {
