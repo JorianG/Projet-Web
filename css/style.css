@@ -97,34 +97,39 @@ nav{
 }
 
 
-/*Page présention du BUT*/
+            /*Page présention du BUT*/
+
+
+/*tableau et explication passage*/
 
 main {
     margin-top : 90px; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.sec-tabcoeff {
+    display: flex;
+}
+
 h1 {
-    margin-left: 35%;
-    padding: 10px;
+    text-align: center;
+    padding: 12px;
     margin-top: 20px;
     margin-bottom: 60px;
+    border: 1px solid gray;
 }
 
 
 
 
-.titre {
+.titre-tab-coeff {
     font-weight: bold; 
     font-size: 16px;
     margin-bottom: 30px;
 }
 
 .texte-validation {
-    float: left;
-    flex-wrap: wrap;
-    display: flex;
-    width: 38%;
+  
     margin-top: 20px;
     
 }
@@ -139,8 +144,8 @@ h1 {
 
 .tab-coeff {
     margin-top: -10px;
-    display: flex;
-    width: 60%;
+    max-width: 60%;
+   
 }
   
 
@@ -163,7 +168,7 @@ td, th {
 }
   
 th {
-    background-color: #E32020;
+    background-color:;
 }
 
 td, th {
@@ -184,9 +189,41 @@ tr:nth-child(odd) td {
     background-color:;
 }
 
-caption {
-    padding: 10px;
+
+
+/* blocs compétences*/
+
+.blocs-competences {
+    margin-top: 3%; 
 }
+
+
+.titre-competences-page-presentation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+    
+
+}
+
+.competence-1 {
+    display: flex;
+}
+
+.img-gauche {
+    height: 250px;
+    margin-left: 5%;
+    
+
+}
+
+
+ 
+
 
 
 
