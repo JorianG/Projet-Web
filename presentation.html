@@ -5,13 +5,13 @@
         <meta charset="utf-8">
         <title>BUT - Présentation</title>
         <meta name="description" content="">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="src/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     </head>
 
     <body>
 
-        <header> 
+          <header> 
             <div id="logo-place">
                 <img class="logo" src="https://iut.univ-tlse3.fr/uas/iut/LOGO/logo-IUT-UT3.png" alt="logo IUT">
                 <img class="logo" src="https://www.univ-tlse3.fr/uas/ups/LOGO/logo_ups_blanc_et_jaune_petit.png" alt="logo Université">
@@ -22,7 +22,14 @@
                 <ul class="navbar">
                     <li class="nav-botton"> <a href="index.html">Accueil</a> </li>
                     <li class="nav-botton"> <a href="presentation.html">Pésentation du BUT</a></li>
-                    <li class="nav-botton"> <a href="">Compétences</a></li>
+                    <div class="dropdown">
+                        <li class="nav-botton"> <a href=""> Compétences </a></li>
+                        <div class="drp-content">
+                            <a href="#">Compétence 1</a>
+                            <a href="#">Compétence 2</a>
+                            <a href="#">Compétence 3</a>
+                        </div>
+                    </div>
                     <li class="nav-botton"> <a href="">Contact</a></li> 
                 </ul>
             </nav>
@@ -167,18 +174,27 @@
                 </section>
 
                 <section class="blocs-competences">
-                    <h2 class="titre-competences-page-presentation">Compétences du BUT Informatique</h2>
-                    <div class="competence-1">
-                        <img class="img-competence-1 img-gauche" src="img/competence1.png" alt="image compétence 1">
-                        <p class="titre-ressource titre-droite">
-                        <ul class="ressources-competence-1 ul-droite">
-                            <li class="titre-droite">Les ressources qui interviennent dans cette compétence sont : </li>
+                     <h2 class="titre-competences-page-presentation">Compétences du BUT Informatique</h2>
+                    <div class="competence 2">
+                        <img class="img-competence-gauche" src="img/competence1.png" alt="image compétence 1">
+                        <ul class="ul-ressource-presentation-droite">
+                            <li class="titre-ressource-presentation">Les ressources qui interviennent dans cette compétence sont : </li>
                             <li class="liste-ressource"> R1.01 : Initiation au développement</li>
                             <li class="liste-ressource"> R1.02 : Développement d'interfaces web</li>
                             <li class="liste-ressource"> R1.10 : Anglais technique</li>
                         </ul>
-
                     </div>
+
+                    <div class="competence 1">
+                        <ul class="ul-ressource-presentation-gauche">
+                            <li class="titre-ressource-presentation">Les ressources qui interviennent dans cette compétence sont : </li>
+                            <li class="liste-ressource"> R1.01 : Initiation au développement</li>
+                            <li class="liste-ressource"> R1.03 : Introduction à l'architecture </li>
+                            <li class="liste-ressource"> R1.10 : Anglais technique</li>
+                        </ul>
+                        <img class="img-competence-droite" src="img/competence2.png" alt="image compétence 1">
+                    </div>
+                    
                     
                     
                     
