@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>BUT - Contact</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div id="logo-place">
+      <img class="logo" src="https://iut.univ-tlse3.fr/uas/iut/LOGO/logo-IUT-UT3.png" alt="logo IUT">
+      <img class="logo" src="https://www.univ-tlse3.fr/uas/ups/LOGO/logo_ups_blanc_et_jaune_petit.png"
+        alt="logo Université">
+      <img class="logo_but logo "
+        src="https://t3.ftcdn.net/jpg/02/93/53/16/360_F_293531639_RTec7iO5kBTQRGDYQBXdaoWQY9hY2KpJ.jpg" alt="logo BUT">
+    </div>
+
+    <nav>
+      <ul class="navbar">
+        <li class="nav-botton"> <a href="index.html">Accueil</a> </li>
+        <li class="nav-botton"> <a href="presentation.html">Pésentation du BUT</a></li>
+        <div class="dropdown">
+          <li class="nav-botton"> <a href=""> Compétences </a></li>
+          <div class="drp-content">
+            <a href="#">Compétence 1</a>
+            <a href="#">Compétence 2</a>
+            <a href="#">Compétence 3</a>
+          </div>
+        </div>
+        <li class="nav-botton"> <a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact">
+    <h1>Page de Contact</h1>
+    <div class="formulaire-contact">
+      <h2 class="titre-formulaire">Formulaire</h2>
+      <div class="info-button">
+        <form method="post" action="traitement.php">
+          <p>
+            <label for="Prenom">Votre prénom :</label>
+            <input type="text" name="Prenom" id="Prenom" placeholder="Ex : Jean" size="30" maxlength="10" />
+            <br />
+
+            <label for="Nom">Votre Nom :</label>
+            <input type="text" name="Nom" id="Nom" placeholder="Ex : Martin" size="30" maxlength="10" />
+
+            <br />
+
+            <label for="email">Votre email :</label>
+            <input type="email" name="email" id="email" placeholder="Ex : jean.martin@etu.iut-tlse.fr" size="30"
+              maxlength="30" />
+          </p>
+        </form>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="contenu">
+
+      <div class="block footer-Plan">
+        <h3>Plan du site</h3>
+        <ul class="liste-plan">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="presentation.html">Présentation du BUT</a></li>
+          <li><a href="#">Compétences 1</a></li>
+          <li><a href="#">Compétences 2</a></li>
+          <li><a href="#">Compétences 3</a></li>
+          <li><a href="#">Compétences 4</a></li>
+          <li><a href="#">Compétences 5</a></li>
+          <li><a href="#">Compétences 6</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="block footer-RGPD">
+        <h3>RGPD</h3>
+        <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" target="_blank">CNIL-RGPD</a>
+      </div>
+
+      <div class="block footer-Entreprise">
+        <h3>L'entrepise (nom)</h3>
+        <ul class="liste-noms">
+          <li>Jorian Gouagout</li>
+          <li>Manon Beaudelet</li>
+          <li>Théo Blanco</li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>

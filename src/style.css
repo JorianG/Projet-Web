@@ -3,18 +3,20 @@
     padding: 0;
 }
 
-
-
+main{
+   width: 1200px;
+  margin : auto; 
+  margin-top : 75px; 
+}
 body{
     --main-bg-color : rgb(255,58,57);
     --main-button-color : azure;
     --alt-button-color  : darkslategrey;
     --alt-hover-color   : rgb(30, 44, 44);
 
-    height: 1000px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
-
     
 }
 
@@ -268,7 +270,7 @@ nav{
   .ul-ressource-presentation-gauche { 
     list-style-type : none; 
     text-align : center;  
-    margin-left : 2%; 
+    margin-left: -2%; 
     margin-top : 10px; 
     font-size: 20px;  
   }
@@ -354,22 +356,43 @@ nav{
     }
 }
 
+
+/*page contact*/ 
+
+.titre-formulaire {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+/* page acceuil*/
+
 .Historique_BUT{
   width: 1200px;
 	margin: auto;
   margin-top: 100px;
   margin-bottom: 20px;
   margin-left: 20px;
-	border: solid 1px #000;
-	border-radius: 5px;
-	background-color: rgb(255, 255, 255);
-	text-decoration: none;
+	background-color: rgb(222, 2, 2);
 }
+
+.lienBUT{
+    display: block;
+    height: 100px;
+}
+
 .Historique{
   width: 1000px;
   margin: auto;
-  margin-left: 200px;
-  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-bottom: 10px;
 	border: solid 1px #000;
 	border-radius: 5px;
 	background-color: #FFF;
@@ -400,5 +423,9 @@ nav{
     height: 100px
 }
 
+/* page competence*/
 
+.competence1{
+  border: solid 4px #ff3300;
+}
 
