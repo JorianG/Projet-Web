@@ -15,8 +15,6 @@ body{
     --alt-hover-color   : rgb(30, 44, 44);
 
     height: 1200px;
-    display: flex;
-    flex-direction: column;
     
 }
 
@@ -427,5 +425,98 @@ label
 
 .competence1{
   border: solid 4px #ff3300;
+}
+
+.containerCmpt{
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  border: solid 3px #ff3300;
+  border-radius: 15px;
+}
+
+.niv1{
+  height: 300px;
+}
+
+
+
+.niv1>img{
+  padding-top: 40px;
+  padding-left: 20px;
+  height: 225px;
+  vertical-align: middle;
+}
+
+.niv1>ul{
+  margin: 30px;
+  font-size: 20px;
+
+}
+.niv1>ul>li{
+padding: 10px;
+}
+.niv1>ul>li:nth-child(1){
+  font-weight: bolder;
+  border: 1px solid black;
+  list-style: none;
+
+}
+.eval{
+  height: 200px;
+}
+.eval>ul{
+  list-style: none;
+}
+.eval>ul>li:nth-child(1){
+  padding: 10px;
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.tabCompt  {
+  border-collapse:collapse;
+  border-spacing:0;
+  width: 98%;
+  margin:10px;
+
+}
+.tabCompt td, .tabCompt th{
+  border: 1px solid black;
+  font-size:14px;
+  overflow:hidden;
+  padding:8px 3px;
+  word-break:normal;
+  text-align: center;
+
+}
+
+.tabCompt tr>td:nth-child(even),.tabCompt tr>th:nth-child(even){
+  background-color:#c0c0c0;
+}
+.tabCompt tr>td:nth-child(1),.tabCompt tr>th:nth-child(1){
+font-size: 18px;
+font-weight: bolder;
+}
+
+
+
+.sae{
+  height: 200px;
+}
+.sae>ul{
+  list-style: none;
+  font-size: 18px;
+  padding: 10px;
+
+}
+.sae>ul>li{
+  padding: 10px;
+}
+.sae>ul>li:nth-child(1){
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 20px;
 }
 
