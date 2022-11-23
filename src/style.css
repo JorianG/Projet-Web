@@ -485,8 +485,14 @@ transform: scale(1.5);
 .borderColorC1{
   border: solid 3px #ff3300;
 }
+.backgroundC1{
+  background-color: #ff3300;
+}
 .borderColorC2{
   border: solid 3px #f79152;
+}
+.backgroundC2{
+  background-color: #f79152;
 }
 .competence1{
   text-align: center;
@@ -512,12 +518,9 @@ transform: scale(1.5);
   margin-bottom: 20px;
 }
 
-.niv1{
-  height: 300px;
-}
+
 
 .logoRess{
-  background-color: #ff3300;
   margin: 10px;
   padding:15px;
   border-radius: 15px;
