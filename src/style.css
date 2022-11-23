@@ -146,7 +146,7 @@ nav{
     display: flex;
   }
   
-  h1 {
+  .tite-page-presentation {
     text-align: center;
     padding: 12px;
     margin-top: 20px;
@@ -363,12 +363,48 @@ nav{
     text-decoration: underline;
 }
 
-label
+.form 
 {
 	display: block;
 	width: 150px;
 	float: left;
+  padding : 1px; 
 }
+
+.formulaire-contact {
+  display : flex; 
+  padding : 50px; 
+}
+
+.champ-message { 
+  justify-content: center; 
+  width : 50%;
+  margin-top : -2.5%; 
+}
+
+.info-button {
+  float : right; 
+  width : 50%; 
+  margin-top : 2%; 
+}
+
+#ameliorer {
+  margin-left: 8%; 
+  margin-top : 10px; 
+}
+
+.envoyer {
+  padding-top : 8px;
+  padding-bottom : 8px; 
+  padding-left:13px;
+  padding-right:13px;
+  margin-top: 20px; 
+  margin-left: 25%; 
+  
+}
+
+
+
 
 /* page acceuil*/
 
@@ -377,20 +413,21 @@ label
 	margin: auto;
   margin-top: 100px;
   margin-bottom: 20px;
-  margin-left: 20px;
-	background-color: rgb(222, 2, 2);
+	background-color: rgb(255, 255, 255);
 }
 
 .lienBUT{
-    display: block;
-    height: 100px;
+    display:inline-block;
+    height: 150px;
+    margin-top: 10px;
+  
 }
 
 .Historique{
   width: 1000px;
   margin: auto;
-  margin-left: 100px;
-  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-top:10px;
 	border: solid 1px #000;
 	border-radius: 5px;
 	background-color: #FFF;
@@ -400,6 +437,7 @@ label
 .TLS{
   width: 1200px;
   margin: auto;
+  margin-top: 20px;
   margin-bottom: 20px;
 	border: solid 1px #000;
 	border-radius: 5px;
@@ -410,21 +448,40 @@ label
 .IUT_Info{
   width: 1000px;
   margin-left: 200px;
+  margin-bottom: 20px;
 	border: solid 1px #000;
 	border-radius: 5px;
 	background-color: #FFF;
 	text-decoration: none;
 }
 
-.lienBUT{
-    display: block;
-    height: 100px
+.listeC{
+  width: 1000px;
+  margin-left: 200px;
+	border: solid 1px #000;
+	border-radius: 5px;
+	background-color: #FFF;
+	text-decoration: none;
 }
 
+.Rangueil{
+  height: 150px;
+  margin: auto;
+  margin-top: 10px;
+  transition: transform .2s;
+}  
+
+.Rangueil:hover{
+-ms-transform: scale(1.5); 
+-webkit-transform: scale(1.5); 
+transform: scale(1.5);
+}
 /* page competence*/
 
 .competence1{
   border: solid 4px #ff3300;
+  text-align: center;
+  padding: 10px 8px;
 }
 
 .containerCmpt{
@@ -442,10 +499,11 @@ label
 
 
 .niv1>img{
-  padding-top: 40px;
-  padding-left: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
   height: 225px;
   vertical-align: middle;
+  border-radius: 10px;
 }
 
 .niv1>ul{
@@ -520,3 +578,42 @@ font-weight: bolder;
   margin-bottom: 20px;
 }
 
+.ress{
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.ressource{
+  height:300px;
+  width: 1050px;
+  margin-top:25px;
+  margin: 15px 30px;
+}
+
+.logoRess{
+  background-color: #ff3300;
+  margin: 10px;
+  padding:15px;
+  border-radius: 15px;
+  height: 25px;
+  width: 70px;
+  color: white;
+  font-size: 22px;
+}
+.titreRess{
+  font-size : 18px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.ressource>ul{
+  list-style: none;
+}
+.ressource>ul>li{
+  padding-top:20px;
+}
+  
+.ressource>ul>li>p{
+  padding-top: 15px;
+  padding-left:20px;
+}
