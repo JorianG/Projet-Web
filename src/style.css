@@ -53,13 +53,22 @@ nav{
 }
 
 .nav-botton>a{
-    padding: 15px 30px;
+    padding: 15px 40px;
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size: 16px;
     color: var(--main-button-color);
     cursor: pointer;
+    transition:  0.4s;
+    border-bottom: 8px solid ;
+}
+
+.nav-botton>a:hover,
+.dropdown:focus .nav-botton>a,
+.dropdown:focus-within .nav-botton>a,
+.dropdown:hover .nav-botton>a {
+  border-bottom: 8px solid var(--main-bg-color);
 }
 .navbar {
     display: flex;
@@ -76,6 +85,7 @@ nav{
 .dropdown{
     position: relative;
     display: inline-block;
+    padding: 0px;
 }
 .dropdown>li{
     padding-bottom: 25px;
@@ -92,7 +102,7 @@ nav{
     width: 100%;
     transform: translateY(-2em);
     z-index: -1;
-    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    transition: all 0.4s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.001s;
 }
 
 .dropdown:focus .drp-content,
@@ -103,7 +113,8 @@ nav{
   z-index: 1;
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.411);
+  border: 2px solid var(--main-bg-color);
 
 }
 
