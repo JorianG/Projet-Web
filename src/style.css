@@ -201,10 +201,6 @@ nav{
     padding: 5px 13px;
   }
   
-  th {
-    background-color: ;
-  }
-  
   td,
   th {
     hyphens: auto;
@@ -215,13 +211,6 @@ nav{
     text-align: center;
   }
   
-  tr:nth-child(even) td {
-    background-color: ;
-  }
-  
-  tr:nth-child(odd) td {
-    background-color: ;
-  }
  /* blocs compétences*/
   
   .blocs-competences {
