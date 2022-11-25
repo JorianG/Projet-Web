@@ -414,70 +414,108 @@ nav{
   margin-top: 100px;
   margin-bottom: 20px;
 	background-color: rgb(255, 255, 255);
+  border: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  border-color: rgb(255, 58, 57);
 }
 
 .lienBUT{
     display:inline-block;
     height: 150px;
     margin-top: 10px;
-  
+    margin-left: 10px; 
 }
 
 .Historique{
   width: 1000px;
-  margin: auto;
-  margin-left: 150px;
-  margin-top:10px;
-	border: solid 1px #000;
-	border-radius: 5px;
-	background-color: #FFF;
+  margin-left: 200px;
+	background-color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 
 .TLS{
   width: 1200px;
-  margin: auto;
+	margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-	border: solid 1px #000;
-	border-radius: 5px;
-	background-color: #FFF;
-	text-decoration: none;
+	background-color: rgb(255, 255, 255);
+  border: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  border-color: rgb(255, 58, 57);
 }
+
 
 .IUT_Info{
   width: 1000px;
   margin-left: 200px;
   margin-bottom: 20px;
-	border: solid 1px #000;
-	border-radius: 5px;
-	background-color: #FFF;
+	background-color: #ffffff;
 	text-decoration: none;
 }
 
 .listeC{
   width: 1000px;
   margin-left: 200px;
-	border: solid 1px #000;
-	border-radius: 5px;
-	background-color: #FFF;
+	background-color: #ffffff;
 	text-decoration: none;
+  list-style: none;
 }
 
 .Rangueil{
   height: 150px;
   margin: auto;
   margin-top: 10px;
-  transition: transform .2s;
+  margin-left: 10px;
+  transition: transform .5s;
 }  
 
 .Rangueil:hover{
 -ms-transform: scale(1.5); 
--webkit-transform: scale(1.5); 
+-webkit-transform: scale(1.5);
 transform: scale(1.5);
 }
 
+.PoleSport{
+  height: 150px;
+  margin: auto;
+  margin-top: 10px;
+  float: right;
+  transition: transform .5s;
+}  
 
+.Compétence{
+width: 1200px;
+	margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+	background-color: rgb(255, 255, 255);
+  border: solid;
+  border-width: 3px;
+  border-radius: 15px;
+  border-color: rgb(255, 58, 57);
+}
+
+  .listePA{
+  list-style: none;
+}
+
+.imgC{
+  height: 50px;
+  float: right;
+}
+
+.CompétenceG
+  width: 600px;
+	margin: auto;
+  float: left;
+}
+.CompétenceD{
+  width: 600px;
+	margin: auto;
+  float: right;
+}
 
 
 /* page competence*/
@@ -488,12 +526,22 @@ transform: scale(1.5);
 .backgroundC1{
   background-color: #ff3300;
 }
+
+  
 .borderColorC2{
   border: solid 3px #f79152;
 }
 .backgroundC2{
   background-color: #f79152;
 }
+
+.borderColorC3{
+  border: solid 3px #ffc000;
+}
+.backgroundC3{
+  background-color: #ffc000;
+}
+  
 .competence1{
   text-align: center;
   padding: 10px 8px;
