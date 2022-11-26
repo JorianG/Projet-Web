@@ -527,6 +527,7 @@ width: 1200px;
   background-color: #ff3300;
 }
 
+
   
 .borderColorC2{
   border: solid 3px #f79152;
@@ -535,13 +536,45 @@ width: 1200px;
   background-color: #f79152;
 }
 
+
+
+
 .borderColorC3{
   border: solid 3px #ffc000;
 }
 .backgroundC3{
   background-color: #ffc000;
 }
-  
+ 
+
+
+.borderColorC4{
+  border: solid 3px #92d050;
+}
+.backgroundC4{
+  background-color: #92d050;
+}
+
+
+
+
+.borderColorC5{
+  border: solid 3px #002060;
+}
+.backgroundC5{
+  background-color: #002060;
+}
+
+.borderColorC6{
+  border: solid 3px #1e1c11;
+}
+.backgroundC6{
+  background-color: #1e1c11;
+}
+
+
+
+
 .competence1{
   text-align: center;
   padding: 10px 8px;
