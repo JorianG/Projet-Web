@@ -753,3 +753,14 @@ font-weight: bolder;
   margin-left: 40px;
   list-style:disc;
 }
+
+.imgCmpt{
+  margin: auto;
+  margin: 10px;_
+  transition: transform .5s;
+}  
+
+.imgCmpt:hover{
+-ms-transform: scale(1.2); 
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
